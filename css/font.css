@@ -1,0 +1,125 @@
+﻿@font-face {
+	font-family: 'poplar';
+	src: url('../fonts/PoplarStd.eot');
+	src: url('../fonts/PoplarStd.eot?#iefix') format('embedded-opentype'),
+		  url('../fonts/PoplarStd.woff') format('woff'), 
+		  url('../fonts/PoplarStd.ttf') format('truetype'), 
+		  url('../fonts/PoplarStd.svg#poplar') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'broadw';
+    src: url('../fonts/broadw-webfont.woff2') format('woff2'),
+         url('../fonts/broadw-webfont.woff') format('woff');
+		 url('../fonts/broadw-webfont.tff') format('tff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot?os07i5');
+    src:    url('../fonts/icomoon.eot?os07i5#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?os07i5') format('truetype'),
+        url('../fonts/icomoon.woff?os07i5') format('woff'),
+        url('../fonts/icomoon.svg?os07i5#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-location:before {
+    content: "\e947";
+}
+.icon-target:before {
+    content: "\e9b3";
+}
+.icon-joomla:before {
+    content: "\eab5";
+}
+.icon-user-tie:before {
+    content: "\e976";
+}
+.icon-opera:before {
+    content: "\eade";
+}
+.icon-stackoverflow:before {
+    content: "\ead0";
+}
+.icon-shrink:before {
+    content: "\e98a";
+}
+.icon-IcoMoon:before {
+    content: "\eaea";
+}
+.icon-spotify:before {
+    content: "\ea94";
+}
+.icon-flickr3:before {
+    content: "\eaa5";
+}
+.icon-vimeo2:before {
+    content: "\eaa1";
+}
+.icon-dropbox:before {
+    content: "\eaae";
+}
+.icon-github:before {
+    content: "\eab0";
+}
+.icon-podcast:before {
+    content: "\e91c";
+}
+.icon-mic:before {
+    content: "\e91e";
+}
+.icon-book:before {
+    content: "\e91f";
+}
+.icon-stackoverflow:before {
+    content: "\ead0";
+}
+.icon-lifebuoy:before {
+    content: "\e941";
+}
+.icon-bubble:before {
+    content: "\e96b";
+}
+.icon-spinner3:before {
+    content: "\e97c";
+}
+.icon-star-half:before {
+    content: "\e9d8";
+}
+.icon-mail2:before {
+    content: "\ea84";
+}
+.icon-mobile:before {
+    content: "\e958";
+}
+.icon-bubbles:before {
+    content: "\e96c";
+}
+.icon-envelop:before {
+    content: "\e945";
+}
+.icon-podcast:before {
+    content: "\e91c";
+}

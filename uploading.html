@@ -1,0 +1,60 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>上传文件</title>
+		<link rel="stylesheet" href="css/uploading.css" type="text/css"/>
+		<script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+		<script type="text/javascript" src="js/uploading.js"></script>
+	</head>
+	<body>
+		<form action="php/upload_file.php" method="post" enctype="multipart/form-data">
+			<p>
+			<select name="primaryImg" id="primaryImg">
+				<option value="1">—请选择分类作品主图—</option>
+				<option value="food">food食品饮料+消费品表</option>
+				<option value="technology">科技信息+电子音像</option>
+				<option value="bus">汽车配件+交通</option>
+				<option value="health">医疗保健+药品</option>
+				<option value="build">建筑+家居+环保</option>
+				<option value="fashion">时尚产业+服饰化妆</option>
+				<option value="cate">餐饮娱乐+运动休闲</option>
+				<option value="industry">工业+机械五金</option>
+				<option value="chemical">化工+涂料+能源</option>
+				<option value="bank">金融+教育+管理</option>
+				<option value="organizati">机构组织+文化艺术</option>
+			</select>
+			</br>
+			<label for="file1">选择主图1:</label><input type="file" name="file1" id="file1" disabled />
+			<label for="company_name">公司名字:</label><input type="text" name="company_name" id="company_name" disabled />
+			<label for="iTem">设计类目:</label><input type="text" name="iTem" id="iTem" disabled />
+			<label for="alt">图片alt:</label><input type="text" name="alt" id="alt" disabled />
+		
+		</p>
+		<p>
+		<select name="detailsImg" id="detailsImg" disabled >
+			<option value="2">—请选择分类作品详情—</option>
+			<option value="foodDetails">food食品饮料+消费品表</option>
+			<option value="technologyDetails">科技信息+电子音像</option>
+			<option value="busDetails">汽车配件+交通</option>
+			<option value="healthDetails">医疗保健+药品</option>
+			<option value="buildDetails">建筑+家居+环保</option>
+			<option value="fashionDetails">时尚产业+服饰化妆</option>
+			<option value="cateDetails">餐饮娱乐+运动休闲</option>
+			<option value="industryDetails">工业+机械五金</option>
+			<option value="chemicalDetails">化工+涂料+能源</option>
+			<option value="bankDetails">金融+教育+管理</option>
+			<option value="organizatiDetails">机构组织+文化艺术</option>
+		</select>
+		</br>
+		<label for="file2">选择详情1:</label><input type="file" name="file2" id="file2" disabled />
+		<label for="file3">选择详情2:</label><input type="file" name="file3" id="file3" disabled />
+		<label for="file4">选择详情3:</label><input type="file" name="file4" id="file4" disabled />
+		<label for="file5">选择详情4:</label><input type="file" name="file5" id="file5" disabled />
+		<label for="file6">选择详情5:</label><input type="file" name="file6" id="file6" disabled />
+		</p>
+		<input type="submit" value="提交" disabled id="btn" />
+		</form>
+		
+	</body>
+</html>

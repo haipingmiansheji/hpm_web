@@ -1,0 +1,106 @@
+﻿/*index ie 页面兼容开始*/
+.new h1{
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#BFa5cf4c,endColorstr=#BFa5cf4c);
+}
+.new .trends{
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#BFa5cf4c,endColorstr=#BFa5cf4c);
+}
+.new .trends ul li{
+	border-bottom:1px solid #cbe499;
+}
+/*index ie 页面兼容结束*/
+
+/*case ie 页面兼容开始*/
+.interest p{
+	font-size:80px;
+	font-weight:bolder;
+}
+/*case ie 页面兼容结束*/
+
+
+/*dynamic ie 页面兼容开始*/
+.dynamicText h1{
+	font-size:70px;
+}
+
+/*dynamic ie 页面兼容结束*/
+
+/*area ie 页面兼容开始*/
+
+.join b{
+	font-size:30px;
+	font-family:Aria;
+}
+/*darea ie 页面兼容结束*/
+
+/*service ie 页面兼容开始*/
+.backImge{
+	background-size: cover;
+	-ms-behavior: url(ie_backgroundSize/backgroundsize.min.htc);
+	behavior: url(ie_backgroundSize/backgroundsize.min.htc);
+}
+/*service ie 页面兼容结束*/
+
+/*cooperation ie 页面兼容开始*/
+.cooperation{
+	background-size: cover;
+	-ms-behavior: url(ie_backgroundSize/backgroundsize.min.htc);
+	behavior: url(ie_backgroundSize/backgroundsize.min.htc);
+}
+
+/*cooperation ie 页面兼容结束*/
+
+/*contact ie 页面兼容开始*/
+.us{
+	background-size: cover;
+	-ms-behavior: url(ie_backgroundSize/backgroundsize.min.htc);
+	behavior: url(ie_backgroundSize/backgroundsize.min.htc);
+}
+.us h1{
+	font-size:80px;
+}
+/*contact ie 页面兼容开始*/
+
+
+/*superiority ie 页面兼容开始*/
+.super{
+	background-size: cover;
+	-ms-behavior: url(ie_backgroundSize/backgroundsize.min.htc);
+	behavior: url(ie_backgroundSize/backgroundsize.min.htc);
+}
+.super h1{
+	font-size:90px;
+}
+/*superiority ie 页面兼容结束*/
+
+/*profile ie 页面兼容开始*/
+.found{
+	background-size: cover;
+	-ms-behavior: url(ie_backgroundSize/backgroundsize.min.htc);
+	behavior: url(ie_backgroundSize/backgroundsize.min.htc);
+}
+.bigImg h1{
+	font-family:Aria;
+	font-weight:bolder;
+}
+.describe .textConte{
+	font-family:Aria;
+	font-weight:bolder;
+	line-height:50px;
+	font-size:45px;
+}
+.found p{
+	font-family:Aria;
+	font-weight:bolder;
+}
+.found .foundText h3{
+	font-family:Aria;
+	font-weight:bolder;
+}
+.create .createCent1{
+	font-family:Aria;
+	font-weight:bolder;
+	font-size:30px;
+	line-height:40px;
+}
+/*profile ie 页面兼容结束*/

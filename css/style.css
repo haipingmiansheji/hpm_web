@@ -1,0 +1,1719 @@
+﻿html{
+	font:16px/25px "微软雅黑";
+	overflow-y:hidden;
+}
+body{
+	width:100%;
+}
+a{
+	color:#9b9094;
+	text-decoration:none;
+}
+a:hover{
+	color:#8fc31f;
+}
+.lt{
+	float:left;
+}
+.rt{
+	float:right;
+}
+.ct{
+	clear:both;
+}
+img{
+	display:block;
+}
+.sr-bdimgshare .bdimgshare-bg{
+	top:12px;
+	left:40px;
+}
+
+/* 头部内容开始 */
+.top{
+	width:100%;
+	background:#000;
+	margin-bottom:10px;
+}
+.center{
+	width:1290px;
+	margin:0 auto;
+}
+.logo, .menu{
+	line-height:80px;
+	text-align:center;
+}
+.menu li{
+	float:left;
+}
+.menu li a{
+	display:block;
+	width:90px;
+	color:#fff;
+	transition:background 0.5s;
+}
+.menu li a:hover,.menu li a.active{
+	background:#8fc31f;
+}
+/* 头部内容结束 */
+/*banner内容开始*/
+.banner{
+	height:530px;
+}
+.banner ul{
+	position:absolute;
+}
+#moveBanner{
+	top:0;
+	left:0;
+	height:100%;
+	overflow:hidden;
+}
+#moveBanner li{
+	float:left;
+	background:#b9b9b9;
+	height:100%;
+}
+#moveBanner li a{
+	display:block;
+	width:100%;
+	height:100%;
+	position:relative;
+}
+#moveBanner li img{
+	height:100%;
+	width:100%;
+	position:absolute;
+	top:0;
+}
+#pointList{
+	left:-100px;
+	bottom:25px;
+	margin-left:50%;
+}
+#pointList li{
+	overflow:hidden;
+	float:left;
+}
+#pointList li a{
+	display:block;
+	width:20px;
+	height:20px;
+	background:#5d5d5d;
+	margin:0 10px;
+}
+#pointList li a:hover,#pointList li a.active{
+	background:#8fc31f;
+}
+.btnBanner{
+	position:relative;
+	overflow:hidden;
+}
+.btnBanner a{
+	width:36px;
+	height:61px;
+	background-position:0 0;
+	background-repeat:no-repeat;
+}
+.btnBanner a.banner_l, .btnBanner a.banner_r{
+	position:absolute;
+	z-index:10;
+}
+.btnBanner a.banner_l{
+	left:50px;
+	background:url(../images/banner_l.png);
+}
+.btnBanner a.banner_r{
+	right:50px;
+	background:url(../images/banner_r.png);
+}
+/*banner内容结束*/
+/*标语内容开始*/
+.poster{
+	height:80px;
+	background:#8fc31f;
+	color:#fff;
+	font-size:19px;
+	text-align:center;
+	line-height:30px;
+	padding-top:20px;
+}
+/*标语内容结束*/
+
+/*设计列表内容开始*/
+.devise{
+	font-size:15px;
+	margin-top:20px;
+}
+.devise .sort{
+	float:left;
+	width:250px;
+	height:332px;
+	background:#8fc31f;
+	margin-right:9px;
+	border-radius:3px;
+}
+.devise .sort a{
+	display:block;
+	width:100%;
+	height:165px;
+	border-radius:3px;
+	overflow:hidden;
+}
+.devise .sort img{
+	width:100%;
+	transition:transform 0.5s;
+}
+.devise .sort a:hover img{
+	transform:scale(1.1);
+}
+.devise .sort h1{
+	font-size:19px;
+	color:#fff;
+	border-bottom:1px solid #648816;
+	line-height:44px;
+	text-indent:9px;
+}
+.devise .sort p{
+	padding:9px;
+	line-height:23px;
+	color:#fff;
+	border-top:1px solid #d2e7a5;
+}
+.devise div.rm{
+	margin-right:0;
+}
+/*设计列表内容结束*/
+
+/*近期设计内容开始*/
+.recent{
+	background:#8fc31f;
+	margin-top:20px;
+	height:455px;
+}
+.recent .article{
+	text-align:center;
+	font-size:30px;
+	height:130px;
+	line-height:130px;
+	color:#fff;
+	position:relative;
+}
+.recent .article s{
+	display:block;
+	width:500px;
+	border-bottom:1px solid #fff;
+	position:absolute;
+	top:68px;
+	left:50%;
+	margin-left:-250px;
+	z-index:1;
+}
+.recent .article h3{
+	width:390px;
+	background:#8fc31f;
+	position:relative;
+	z-index:2;
+	left:50%;
+	margin-left:-195px;
+}
+.recent .roll{
+	width:93%;
+	height:275px;
+	overflow:hidden;
+	position:relative;
+	margin:0 auto;
+}
+.recent .center{
+	position:relative;
+}
+.recent .lmove, .recent .rmove{
+	position:absolute;
+	top:50%;
+	display:block;
+	width:35px;
+	height:62px;
+	margin-top:-60px;
+	z-index:6;
+}
+.recent  .lmove{
+	background:url(../images/lmove_1.png) no-repeat 0 0;
+	left:0;
+}
+.recent  .rmove{
+	background:url(../images/rmove_1.png) no-repeat 0 0;
+	right:0;
+}
+.recent .lmove:hover{
+	background:url(../images/lmove_2.png) no-repeat 0 0;
+	left:0;
+}
+.recent .rmove:hover{
+	background:url(../images/rmove_2.png) no-repeat 0 0;
+	right:0;
+}
+.recent .roll ul{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:5;
+}
+.recent .roll ul li{
+	float:left;
+	margin:0 13px;
+	line-height:23px;
+	color:#fff;
+}
+.recent .roll ul li p{
+	color:#d7e8bc;
+}
+.recent .roll ul li a{
+	display:block;
+	width:275px;
+	height:215px;
+	border-radius:10px;
+	overflow:hidden;
+}
+.recent .roll ul li a img{
+	transition:transform 0.5s;
+	width:100%;
+	height:100%;
+}
+.recent .roll ul li a img:hover{
+	transform:scale(1.1);
+}
+/*近期设计内容结束*/
+
+/*流程图内容开始*/
+.flow{
+	margin-top:20px;
+	border-top:1px solid #8fc320;
+	border-bottom:1px solid #8fc320;
+}
+.flow .flowImg{
+	width:100%;
+	height:570px;
+	background:url(../images/flow.png) no-repeat center center;
+	position:relative;
+	line-height:25px;
+	text-align:center;
+	font-size:14px;
+}
+.flow .flowImg .equal{
+	position:absolute;
+	top:245px;
+}
+.flow .flowImg .location{
+	color:#eb5c58;
+	left:130px;
+}
+.flow .flowImg .plan{
+	left:335px;
+	color:#a96e71;
+}
+.flow .flowImg .model{
+	left:535px;
+	color:#8a6473;
+}
+.flow .flowImg .extend{
+	left:728px;
+	color:#914665;
+}
+.flow .flowImg .adviser{
+	right:305px;
+	color:#933c60;
+}
+.flow .flowImg .accomplish{
+	right:105px;
+	color:#933c60;
+}
+.flow span{
+	font-size:45px;
+}
+.flow .flowImg .num{
+	position:absolute;
+	font-size:40px;
+	font-weight:bolder;
+	color:#fff;
+}
+.flow .flowImg .n1{
+	top:475px;
+	left:232px;
+}
+.flow .flowImg .n2{
+	top:70px;
+	left:435px;
+}
+.flow .flowImg .n3{
+	top:475px;
+	left:638px;
+}
+.flow .flowImg .n4{
+	top:70px;
+	left:833px;
+}
+.flow .flowImg .n5{
+	top:475px;
+	right:205px;
+}
+.flow .flowImg .communal{
+	position:absolute;
+	width:78px;
+	text-align:left;
+	line-height:18px;
+}
+.flow .flowImg .communal h4{
+	font-size:18px;
+	color:#F25A58;
+}
+.flow .flowImg .communal p{
+	font-size:12px;
+}
+.flow .flowImg .custom{
+	top:455px;
+	left:130px;
+}
+.flow .flowImg .visualize{
+	top:455px;
+	left:715px;
+}
+.flow .flowImg .achieve{
+	top:455px;
+	right:104px;
+}
+.flow .flowImg .engineer{
+	top:50px;
+	left:505px;
+}
+.flow .flowImg .year{
+	top:50px;
+	right:308px;
+}
+/*流程图内容结束*/
+/*了解我们内容开始*/
+.know{
+	margin-top:20px;
+	height:458px;
+	background:#f4f4f4;
+	line-height:27px;
+}
+.know .newLocation{
+	position:relative;
+	height:100%;
+	background:url(../images/know.png) no-repeat 45px 65px;
+}
+.know ul{
+	position:absolute;	
+	left:0;
+	bottom:65px;
+	text-align:center;
+}
+.know ul li{
+	float:left;
+	padding:0 35px;
+}
+.know ul li h2{
+	font-size:20px;
+}
+.know ul li h2.know1{
+	color:#ea222c;
+}
+.know ul li h2.know2{
+	color:#f4ac00;
+}
+.know ul li h2.know3{
+	color:#3c6006;
+}
+.know ul li h2.know4{
+	color:#93278f;
+}
+.know ul li p{
+	color:#9b9094;
+}
+.know ul li a{
+	font-size:14px;
+	text-decoration:underline;
+}
+/*了解我们内容结束*/
+/*更新内容开始*/
+.new{
+	background:#8fc31f;
+	margin-top:20px;
+	padding:20px 0;
+	color:#fff;
+	height:406px;
+}
+.new h1{
+	width:605px;
+	font-size:20px;
+	height:40px;
+	border:1px solid rgba(255,255,255,0.3);
+	border-radius:10px;
+	background:rgba(255,255,255,0.2) url(../images/ic_1.png) no-repeat 560px center;
+	line-height:40px;
+	text-indent:1.5em;
+}
+.new .trends{
+	line-height:35px;
+	width:561px;
+	border:1px solid rgba(255,255,255,0.3);
+	border-radius:10px;
+	background:rgba(255,255,255,0.2);
+	padding:40px 22px 32px;
+	margin-top:17px;
+	height:265px;
+}
+.new .trends .hidd{
+	width:100%;
+	height:100%;
+	position:relative;
+	overflow:hidden;
+}
+.new .trends ul{
+	position:absolute;
+	top:0;
+	left:5px;
+}
+.new .trends ul li{
+	border-bottom:1px solid rgba(255,255,255,0.3);
+	width:550px;
+}
+.new .trends ul li a{
+	color:#fff;
+}
+.new .trends ul li a span{
+	float:right;
+}
+/*更新内容结束*/
+/* 底部内容开始 */
+.foot{
+	margin-top:25px;
+}
+.foot .container{
+	background:#8fc320;
+	margin-bottom:25px;
+}
+.foot .container p{
+	float:left;
+	height:125px;
+	color:#fff;
+	text-align:center;
+	line-height:125px;
+}
+.foot .container p img{
+	margin-top:30px;
+	margin-right:auto;
+	margin-left:auto;
+}
+.foot .container p.share, .foot .container p.link{
+	width:165px;
+	background:#b0d563;
+}
+.foot .container .sharelink{
+	float:left;
+	width:445px;
+	margin-top:30px;
+	margin-left:30px;
+}
+.foot .container .sharelink a{
+	width:56px;
+	height:57px;
+	padding:0;
+	background:url(../images/icont.png) no-repeat;
+}
+.foot .container .sharelink a.bds_more{
+	background-position:center 0;
+	background-size:100%;
+}
+.foot .container .sharelink a.bds_qzone{
+	background-position:center -59px;
+	background-size:100%;
+}
+.foot .container .sharelink a.bds_tsina{
+	background-position:center -119px;
+	background-size:100%;
+}
+.foot .container .sharelink a.bds_tqq{
+	background-position:center -179px;
+	background-size:100%;
+}
+.foot .container .sharelink a.bds_renren{
+	background-position:center -239px;
+	background-size:100%;
+}
+.foot .container .sharelink a.bds_weixin{
+	background-position:center -299px;
+	background-size:100%;
+}
+.foot .container p.shareList{
+	width:520px;
+}
+.foot .container p.linkList{
+	width:415px;
+	height:95px;
+	padding:25px 0 0 17px;
+	line-height:1.8em;
+	text-align:left;
+}
+.foot .container p.linkList a{
+	color:#fff;
+}
+.foot .container p.linkList s{
+	border-left:1px solid #fff;
+	margin:0 5px;
+	font-size:12px;
+}
+.foot .container p.linkList a:hover{
+	color:#9b9094;
+}
+.foot .intro{
+	background:#262626;
+	height:256px;
+}
+.foot .intro dl{
+	float:left;
+	width:231px;
+	color:#fff;
+	line-height:30px;
+	margin:45px 0 25px 0;
+	padding-left:25px;
+	border-left:1px dashed #9b9094;
+}
+.foot .intro dl.rb{
+	border-right:1px dashed #9b9094;
+}
+.foot .intro dl dt{
+	font-size:20px;
+}
+.copyright{
+	background:#000;
+	height:100px;
+	color:#9b9094;
+	text-align:center;
+	line-height:25px;
+	padding-top:20px;
+}
+/* 底部内容结束 */
+
+/*——公司简介页开始——*/
+/*公司简介大图开始*/
+.bigImg{
+	height:285px;
+	background:#8fc31f;
+	margin-bottom:10px;
+	padding-top:125px;
+	text-align:center;
+}
+.bigImg h1{
+	font:100px/61px poplar;
+	color:#fff;
+}
+.bigImg p{
+	margin-top:55px;
+}
+.bigImg p a{
+	display:block;
+	width:365px;
+	height:70px;
+	border:2px solid #fff;
+	margin:0 auto;
+	font-size:43px;
+	color:#fff;
+	line-height:70px;
+	border-radius:5px;
+	transition:background 0.5s;
+}
+.bigImg p a:hover{
+	background:#7aac0d;
+}
+/*公司简介大图结束*/
+
+/*服务内容的开始*/
+.severContent{
+	height:180px;
+	border-top:1px solid #8fc31f;
+	border-bottom:1px solid #8fc31f;
+	padding:50px 0;
+}
+.severContent ul li{
+	float:left;
+}
+.severContent ul li a{
+	display:block;
+	width:171px;
+	height:171px;
+	background:#8fc31f;
+	margin-right:15px;
+	border-radius:5px;
+	text-align:center;
+	color:#fff;
+	transition:background 0.5s;
+}
+.severContent ul li a:hover{
+	background:#7aac0d;
+}
+.severContent ul li a.rm{
+	margin-right:0;
+}
+.severContent ul li a span,.severContent ul li a strong, .severContent ul li a b{
+	display:block;
+	line-height:18px;
+}
+.severContent ul li a span{
+	font-size:65px;
+	line-height:110px;
+}
+/*服务内容的结束*/
+/*公司简介描述开始*/
+.describe{
+	background:#8fc31f;
+	color:#fff;
+	margin:10px 0;
+	padding:80px 0;
+}
+.describe .textConte{
+	width:520px;
+	height:199px;
+	border:10px solid #fff;
+	font:65px/80px poplar;
+	padding-left:45px;
+	padding-top:66px;
+	margin:0 65px 0 80px;
+}
+.describe .introConte{
+	width:465px;
+	height:255px;
+	margin-right:95px;
+	padding-top:20px;
+	font-size:20px;
+	line-height:41px;
+	text-align:justify;
+}
+/*公司简介描述结束*/
+/*公司客户涵盖开始*/
+.contain{
+	border-top:1px solid #8fc31f;
+	border-bottom:1px solid #8fc31f;
+	height:755px;
+	background:url(../images/contain.png) no-repeat center 65px;
+}
+.contain h1, .contain h2{
+	text-align:center;
+	text-transform:uppercase;
+}
+.contain h1{
+	font:95px/120px broadw;
+	color:#8fc31f;
+	margin-top:320px;
+}
+.contain h2{
+	font:62px/20px Arial;
+	font-weight:800;
+	color:#2fa6de;
+}
+.contain .textCompany{
+	padding:40px 70px 0;
+	font-size:20px;
+	color:#9b9094;
+	line-height:40px;
+	text-align:justify;
+}
+/*公司客户涵盖结束*/
+/*海平面是品牌创建结构开始*/
+.found{
+	height:520px;
+	background:url(../images/found.png) no-repeat center center;
+	background-size:100%;
+	margin:10px 0;
+	padding-top:125px;
+}
+.found p{
+	font:60px/85px broadw;
+	color:#8fc31f;
+}
+.found .foundContent{
+	padding-top:40px;
+}
+.found .foundText{
+	width:820px;
+	height:210px;
+	border:10px solid #fff;
+	margin:0 auto;
+	background:#8fc31f;
+	color:#fff;
+	padding:0 30px;
+	font-size:20px;
+	line-height:40px;
+	text-align:center;
+}
+.found .foundText h3{
+	font:48px/70px poplar;
+	text-transform:uppercase;
+	margin-top:30px;
+}
+/*海平面是品牌创建结构结束*/
+/*激情创作开始*/
+.create{
+	background:url(../images/create.png) no-repeat center center;
+	height:390px;
+	border-top:1px solid #8fc31f;
+	border-bottom:1px solid #8fc31f;
+}
+.create .consult{
+	position:relative;
+}
+.create .createCent1{
+	position:absolute;
+	top:100px;
+	left:130px;
+	font:39px/47px 'poplar';
+	text-transform:uppercase;
+	text-align:center;
+	color:#fff;
+}
+.create .createCent2{
+	position:absolute;
+	top:60px;
+	left:520px;
+	font-size:41px;
+	font-weight:800;
+	color:#9b9094;
+}
+.create .createCent3{
+	font-size:20px;
+	width:709px;
+	position:absolute;
+	top:140px;
+	left:518px;
+	color:#9b9094;
+	line-height:30px;
+}
+.create .createCent3 p{
+	margin-bottom:10px;
+}
+/*激情创作结束*/
+/*——公司简介页结束——*/
+
+/*——案例作品页开始——*/
+/*设计名目列表开始*/
+.serveMenu{
+	font-size:16px;
+	color:#9b9094;
+	text-align:center;
+	line-height:24px;
+	border-bottom:1px solid #8fc320;
+}
+.serveMenu ul li{
+	margin-right:0.7%;
+	width:32.865%;
+	height:100%;
+}
+.serveMenu ul li.rm{
+	margin-right:0;
+}
+.serveMenu ul li img{
+	width:100%;
+}
+.serveMenu ul li h3{
+	line-height:45px;
+	font-weight:bold;
+}
+.serveMenu ul li p{
+	padding:0 47px 15px;
+}
+.serveMenu ul li a{
+	display:block;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+.serveMenu ul li a img{
+	transition:transform 0.5s;
+}
+.serveMenu ul li a:hover img{
+	transform:scale(1.1);
+}
+/*设计名目列表结束*/
+
+/*您准好了吗开始*/
+.interest{
+	height:495px;
+	color:#fff;
+	text-align:center;
+	font:99px/45px poplar;
+	background:#8fc31f url(../images/say.jpg) no-repeat center 57px;
+}
+
+.interest p{
+	padding-top:390px;
+}
+/*您准好了吗结束*/
+
+/*——案例作品页结束——*/
+
+/*——企业动态开始——*/
+.news{
+	height:68px;
+	font-size:30px;
+	line-height:68px;
+	border-top:1px solid #8fc31f;
+	border-bottom:1px solid #454545;
+	color:#454545;
+}
+.newsList{
+	border-bottom:1px solid #8fc31f;
+}
+.newsList h3{
+	font-size:20px;
+	margin-top:45px;
+	margin-bottom:10px;
+}
+.newsList p{
+	height:65px;
+	border-top:1px dashed #a7a7a7;
+	border-bottom:1px dashed #a7a7a7;
+	padding-top:15px;
+	padding-bottom:30px;
+	overflow:hidden;
+	position:relative;
+}
+.newsList p a{
+	display:block;
+	line-height:30px;
+}
+.newsList p span{
+	display:block;
+	width:100%;
+	height:30px;
+	position:absolute;
+	left:0;
+	bottom:0;
+	background:#fff;
+	line-height:30px;
+	font-family:"宋体";
+	font-size:14px;
+	color:#747474;
+}
+.newsList p span a{
+	font-size:11px;
+	color:#747474;
+	font-family:"宋体";
+}
+.newsList p span a:hover{
+	text-decoration:underline;
+}
+.newsList .publish{
+	margin-top:50px;
+	border-top:1px solid #a7a7a7;
+	padding:30px 0;
+}
+.newsList .publish label{
+	display:block;
+	margin:20px 0 10px 0;
+}
+.newsList .publish input{
+	width:1270px;
+	height:30px;
+	outline:none;
+	padding:5px 10px;
+	border:1px solid #a7a7a7;
+	font-size:16px;
+	border-radius:6px;
+}
+.newsList .publish textarea{
+	width:1270px;
+	height:200px;
+	outline:none;
+	padding:15px 10px;
+	border:1px solid #a7a7a7;
+	font-size:16px;
+	border-radius:6px;
+}
+#submit{
+	width:100%;
+	margin-top:30px;
+	border:none;
+	height:50px;
+	cursor:pointer;
+	transition:all 0.5s;
+}
+#submit:hover{
+	background:#8fc31f;
+	color:#fff;
+}
+/*——企业动态结束——*/
+
+/*——服务领域开始——*/
+.originality{
+	height:682px;
+	background:url(../images/originality.jpg) no-repeat center center;
+	background-size:100%;
+	color:#454545;
+}
+.originality .textPosition{
+	poSition:relative;
+	height:100%;
+}
+.originality .textPosition h1{
+	position:absolute;
+	right:35px;
+	top:315px;
+	width:608px;
+	height:70px;
+	text-align:center;
+	font-size:50px;
+	font-weight:bolder;
+}
+.originality .textPosition p{
+	position:absolute;
+	right:35px;
+	top:415px;
+	width:608px;
+	height:214px;
+	font-size:20px;
+	line-height:45px;
+	text-align:justify;
+}
+.join{
+	height:643px;
+	margin-top:10px;
+	color:#fff;
+}
+.set{
+	background:#454545;
+}
+.join .owned{
+	height:100%;
+}
+.join .setBackground{
+	background:url(../images/set.png) no-repeat 58px center;
+}
+.join .setText{
+	padding-top:150px;
+	width:620px;
+	margin-left:60px;
+	text-align:justify;
+}
+.join .setText p{
+	width:100%;
+	font-size:20px;
+	line-height:45px;
+}
+.join h2{
+	font-size:50px;
+	font-weight:bolder;
+	line-height:60px;
+}
+.join b{
+	font-family:poplar;
+	font-size:50px;
+	text-transform:uppercase;
+	display:block;
+}
+.join .setText ul{
+	margin-top:20px;
+	width:570px;
+	overflow:hidden;
+}
+.join .setText ul li{
+	float:left;
+	margin-top:20px;
+	margin-right:20px;
+}
+.join .setText ul li a{
+	display:block;
+	width:170px;
+	height:42px;
+	background:#8fc31f;
+	border-radius:5px;
+	text-align:center;
+	line-height:42px;
+	color:#fff;
+	transition:background 0.5s;
+}
+.join .setText ul li a:hover{
+	background:#7aac0d;
+}
+
+.update{
+	background:#454545;
+}
+.update .setBackground{
+	background:url(../images/update.png) no-repeat 58px center;
+}
+.update .setText{
+	margin-right:50px;
+	padding-top:180px;
+}
+.pack{
+	background:#454545;
+}
+.pack .setBackground{
+	background:url(../images/pack.png) no-repeat 58px center;
+}
+.pack .setText{
+	margin-right:50px;
+	padding-top:170px;
+}
+.admin{
+	background:#d4d3d8;
+}
+.admin .setBackground{
+	background:url(../images/admin.png) no-repeat -10px center;
+}
+.admin .setText{
+	margin-right:0;
+	padding-top:170px;
+	width:600px;
+}
+.webImage{
+	background:#454545;
+}
+.webImage .setBackground{
+	background:url(../images/webImage.png) no-repeat 58px center;
+}
+
+.webImage .setText{
+	padding-top:165px;
+}
+/*——服务领域结束——*/
+
+/*——服务客户开始——*/
+.backImge{
+	background:url(../images/backImge.jpg) no-repeat center center;
+	background-size:100%;
+}
+.backImge p{
+	margin-top:135px;
+}
+.backImge p a{
+	background:#8fc31f;
+}
+.client{
+	font-size:16px;
+	text-align:center;
+	border-bottom:1px solid #8fc320;
+}
+.client ul{
+	overflow:hidden;
+}
+.client ul li{
+	float:left;
+	width:19.43%;
+	height:362px;
+	margin-right:0.7%;
+	border-radius:10px;	
+}
+.client ul li.five{
+	margin-right:0;
+	float:right;
+}
+.client ul li a{
+	display:block;
+	background:#dddddd;
+	border-radius:10px;
+	overflow:hidden;
+}
+.client ul li p{
+	line-height:40px;
+	color:#000;
+}
+.client ul li a img{
+	margin:0 auto;
+	width:100%;
+	height:100%;
+	transition:transform 0.5s;
+}
+.client ul li a:hover img{
+	transform:scale(1.2);
+}
+/*——服务客户结束——*/
+
+/*——服务优势结束——*/
+.super{
+	background:url(../images/super.jpg) no-repeat 0 0;
+	background-size:100%;
+}
+.super a{
+	background:rgba(143,195,31,0.8);
+}
+.common{
+	background:#e8e8e8;
+	height:550px;
+	margin-bottom:10px;
+}
+.common .wrp{
+	width:505px;
+	color:#878787;
+}
+.common .wrp h1{
+	font-size:23px;
+}
+.common .wrp p{
+	font-size:16px;
+	line-height:28px;
+	margin-top:25px;
+}
+
+.course .wrp{
+	float:right;
+	margin-top:132px;
+	margin-right:120px;
+}
+.course .center{
+	background:url(../images/course.png);
+}
+.team .center{
+	background:url(../images/team.png);
+}
+.team .wrp{
+	margin-top:132px;
+	margin-left:120px;
+}
+.deal .center{
+	background:url(../images/deal.png);
+}
+.deal .wrp{
+	float:right;
+	margin-top:230px;
+	margin-right:80px;
+	width:670px;
+}
+.item .center{
+	background:url(../images/item.png);
+}
+.item .wrp{
+	float:right;
+	margin-top:255px;
+	width:612px;
+	margin-right:100px;
+}
+.value .center{
+	background:url(../images/value.png);
+}
+.value .wrp{
+	margin-top:250px;
+	width:600px;
+	margin-left:140px;
+}
+.common .center{
+	background-position:center center;
+	background-repeat:no-repeat;
+	height:100%;
+	overflow:hidden;
+}
+/*——服务优势结束——*/
+
+/*——如何合作开始——*/
+.cooperation{
+	background:url(../images/cooperation.jpg) no-repeat center center;
+	background-size:100%;
+}
+.cooperation p{
+	margin-top:135px;
+}
+.cooperation p a{
+	background:#8fc31f;
+}
+.cooperation p a:hover{
+	background:#7aac0d;
+}
+.same{
+	height:550px;
+	margin-bottom:10px;
+}
+.same .center{
+	height:100%;
+}
+.cooperationText{
+	background:#e8e8e8;
+}
+.cooperationText .center{
+	position:relative;
+	background:url(../images/cooperation.png) no-repeat center 85px;
+}
+.cooperationText p{
+	text-align:center;
+	margin-left:50%;
+	left:-477px;
+	bottom:50px;
+	line-height:30px;
+}
+
+.flowsheet .center{
+	background:url(../images/flowsheet.png) no-repeat center center;
+}
+.same{
+	background:#e8e8e8;
+}
+.same p{
+	width:255px;
+	height:95px;
+	position:absolute;
+	line-height:25px;
+	color:#9b9094;
+}
+.cooperationText p{
+	width:955px;
+	height:85px;
+}
+.hpmconsult .lt{
+	background:url(../images/same_1.png) no-repeat center bottom;
+}
+.hpmconsult .rt{
+	background:url(../images/same_2.png) no-repeat center top;
+}
+.offer .lt{
+	background:url(../images/same_2.png) no-repeat center top;
+}
+
+.offer .rt{
+	background:url(../images/same_1.png) no-repeat center bottom;
+}
+
+
+.scheme .lt{
+	background:url(../images/same_1.png) no-repeat center bottom;
+}
+.scheme .rt{
+	background:url(../images/same_2.png) no-repeat center top;
+}
+.over .lt{
+	background:url(../images/same_2.png) no-repeat center top;
+}
+.over .rt{
+	background:url(../images/same_1.png) no-repeat center bottom;
+}
+.same .lt, .same .rt{
+	width:50%;
+	height:100%;
+	background-size:100%;
+	position:relative;
+}
+.same span{
+	position:absolute;
+	display:block;
+	width:120px;
+	height:115px;
+	text-align:center;
+	color:#fff;
+}
+.same span s{
+	margin-top:20px;
+}
+.same span b{
+	font-size:70px;
+}
+.same .lt span{
+	left:260px;
+	top:135px;
+}
+.same .lt p{
+	top:345px;
+	left:205px;
+}
+.same .rt p{
+	top:130px;
+	left:205px;
+}
+.same .lt span s{
+	display:block;
+	font-size:20px;
+	text-decoration:none;
+}
+.same .rt span{
+	right:260px;
+	bottom:135px;
+}
+.same .rt span s{
+	display:block;
+	font-size:20px;
+	text-decoration:none;
+	
+}
+
+.offer .center .lt span{
+	top:295px;
+}
+.offer .center .lt p{
+	top:30px;
+}
+
+.offer .center .rt span{
+	bottom:300px;
+}
+.offer .center .rt p{
+	top:350px;
+}
+
+
+.over .center .lt span{
+	top:295px;
+}
+.over .center .lt p{
+	top:150px;
+}
+
+.over .center .rt span{
+	bottom:300px;
+}
+.over .center .rt p{
+	top:350px;
+}
+
+
+.flowsheet{
+	border-bottom:1px solid #8fc31f;
+	background:#fff;
+}
+.implement{
+	background:#8fc31f;
+}
+.implement .center{
+	position:relative;
+	background:url(../images/implement.png) no-repeat center 65px;
+}
+.implement span{
+	font-size:20px;
+	height:25px;
+	left:589px;
+	top:72px;
+}
+.implement p{
+	width:935px;
+	height:50px;
+	left:-467px;
+	bottom:50px;
+	margin-left:50%;
+	color:#fff;
+}
+/*——如何合作开始——*/
+/*——联系我们开始——*/
+.us{
+	background:url(../images/us.jpg) no-repeat center center;
+	background-size:100%;
+}
+.contactUs{
+	height:550px;
+	margin-bottom:10px;
+	background:#e8e8e8;
+}
+.contactUs .center{
+	height:100%;
+	position:relative;
+	background:url(../images/contact.png) no-repeat center 60px;
+}
+.contactUs .center b{
+	position:absolute;
+	font-size:70px;
+	color:#fff;
+	font-weight:normal;
+}
+.contactUs .center b.icon-mail2{
+	left:150px;
+	top:180px;
+}
+.contactUs .center b.icon-mobile{
+	left:420px;
+	top:270px;
+}
+.contactUs .center b.icon-bubbles{
+	left:732px;
+	top:145px;
+}
+.contactUs .center b.icon-envelop{
+	right:150px;
+	top:85px;
+}
+.contactUs .center p{
+	position:absolute;
+	width:965px;
+	height:65px;
+	top:420px;
+	left:162px;
+	text-align:center;
+	line-height:30px;
+	font-size:16px;
+	color:#878787;
+}
+.contact{
+	height:535px;
+	margin-bottom:10px;
+}
+.contact .center{
+	height:100%;
+	line-height:30px;
+	color:#878787;
+}
+.contact .center .lt{
+	width:38%;
+	height:270px;
+}
+.contact .center .rt{
+	width:50%;
+	height:100%;
+	position:relative;
+}
+.contact .center .lt{
+	padding:150px 0 0 130px;
+}
+.contact .center .lt dl{
+	margin-bottom:55px;
+}
+.contact .center .lt dl dt{
+	font-size:20px;
+	color:#8fc31f;
+	line-height:50px;
+}
+.contact .center .rt{
+	background:url(../images/contact_1.png) no-repeat 45px center;
+}
+.contact .center .rt .icon-podcast{
+	position:absolute;
+	font-size:135px;
+	top:208px;
+	left:292px;
+	color:#fff;
+}
+.message{
+	height:800px;
+	margin-bottom:10px;
+	border-top:1px solid #8fc31f;
+	border-bottom:1px solid #8fc31f
+}
+.message .messageContent{
+	width:1020px;
+	height:558px;
+	margin:65px auto;
+	background:url(../images/frame.png) no-repeat 0 0;
+	padding-top:95px;
+	font-size:16px;
+	color:#878787;
+	line-height:30px;
+}
+.message .messageContent .quick{
+	position:relative;
+	font-size:20px;
+	color:#8fc31f;
+	top:-75px;
+	left:28px;
+}
+.message .messageContent label{
+	display:block;
+	margin-top:35px;
+	
+}
+.message .messageContent input, #textContent{
+	width:1000px;
+	outline:none;
+	font-size:14px;
+}
+#useName,#Contact{
+	height:35px;
+}
+#useName, #Contact, #textContent{
+	border-radius:10px;
+	padding:5px 10px;
+	border:1px solid #e8e8e8;
+	line-height:25px;
+	background-image:linear-gradient(to top,#fdfdfd 0%, #fff 40%,#fff 90%,#fdfdfd 100%);
+}
+#textContent{
+	height:140px;
+}
+#useName:hover, #Contact:hover, #textContent:hover{
+	background-image:linear-gradient(to top,#f2f2f2 0%, #fbfbfb 30%,#fbfbfb 70%,#f2f2f2 100%);
+}
+#useName:focus, #Contact:focus, #textContent:focus{
+	background:#fff;
+}
+#btn{
+	height:51px;
+	background:#e8e8e8;
+	border:none;
+	border-radius:10px;
+	padding:0;
+	width:100%;
+	cursor:pointer;
+	transition:all 0.5s;
+	margin-top:10px;
+}
+#btn:hover{
+	background:#8fc31f;
+	color:#fff;
+}
+.messageText{
+	font-size:16px;
+	margin-bottom:10px;
+	color:#878787;
+}
+.messageText .element{
+	background:#e8e8e8;
+	padding:50px 0;
+	margin-bottom:10px;
+}
+.messageText .element .mainbody{
+	width:1020px;
+	margin:0 auto;
+}
+.messageText .element .mainbody strong{
+	font-weight:bolder;
+}
+.messageText .element .mainbody .companyName, .messageText .element .mainbody .companyContact{
+	line-height:40px;
+}
+.messageText .element .mainbody .youMessage{
+	margin-top:8px;
+	line-height:25px;
+}
+/*——联系我们结束——*/
+
+/*——产品列表开始——*/
+.product{
+	background:url(../images/product.jpg) no-repeat center center;
+	background-size:100%;
+}
+.product .productItem{
+	width:740px;
+	height:60px;
+	margin:0 auto;
+}
+.product .productItem .test,.product .productItem .selcetItem{
+	width:337px;
+	height:100%;
+	background:rgba(255,255,255,0.8);
+	line-height:60px;
+	border-radius:10px;
+	font-size:20px;
+	color:#878787;
+}
+.product .productItem .arrows{
+	width:32px;
+	height:100%;
+	background:url(../images/arrows.png) no-repeat center center;
+	margin:0 15px;
+}
+.product .productItem .selcetItem{
+	background:rgba(255,255,255,0.8) url(../images/arrows_1.png) no-repeat 275px center;
+	position:relative;
+	cursor:pointer;
+}
+.product .productItem .selcetItem ul{
+	position:absolute;
+	display:none;
+	top:60px;
+	left:0;
+	width:337px;
+	z-index:10;
+}
+.product .productItem .selcetItem ul li{
+	margin-top:3px;
+}
+.product .productItem .selcetItem ul a{
+	display:block;
+	width:100%;
+	height:45px;
+	background:rgba(236,243,221,0.8);
+	border-radius:10px;
+	line-height:45px;
+	color:#878787;
+	text-align:left;
+	text-indent:85px;
+	transition:background 0.5s;
+}
+.product .productItem .selcetItem ul a:hover{
+	background:rgba(198,236,115,0.8);
+}
+.projects{
+	height:440px;
+	background:#e8e8e8;
+	margin-bottom:10px;
+}
+.projects .center{
+	height:100%;
+	background:url(../images/projects.png) no-repeat center center;
+	position:relative;
+}
+.projects .center p{
+	position:absolute;
+	top:115px;
+	left:170px;
+	width:105px;
+	height:50px;
+	font-size:20px;
+	color:#fff;
+	line-height:25px;
+	text-align:center;
+}
+.projects .center span{
+	position:absolute;
+	display:block;
+	top:215px;
+	left:330px;
+	width:840px;
+	height:50px;
+	font-size:16px;
+	color:#878787;
+	line-height:25px;
+	z-index:8;
+}
+.projects .center h3{
+	position:absolute;
+	top:185px;
+	left:330px;
+	width:840px;
+	font-size:16px;
+	color:#878787;
+	z-index:8;
+	font-weight:bolder;
+}
+.projectsItem{
+	border-bottom:1px solid #8fc31f;
+}
+.projectsItem dl{
+	width:32.85%;
+	height:400px;
+	float:left;
+	margin-right:10px;
+}
+.projectsItem dl.noMargin{
+	margin-right:0;
+}
+.projectsItem dl dt{
+	width:100%;
+	margin-bottom:5px;
+}
+.projectsItem dl dt a{
+	display:block;
+	width:100%;
+	height:74%;
+	overflow:hidden;
+}
+.projectsItem dl dt a img{
+	width:100%;
+	height:100%;
+	transition:transform 0.5s;
+}
+.projectsItem dl dt a:hover img{
+	transform:scale(1.1);
+}
+.projectsItem dl dd{
+	line-height:30px;
+	text-indent:33%;
+	color:#9b9094;
+}
+.projectsItem dl dd.clientName{
+	font-weight:bolder;
+}
+.projectsItem dl dd.projectItem{
+	
+}
+/*——产品列表结束——*/
+/*——案例详情开始——*/
+.caseDetails ul li{
+	overflow:hidden;
+	margin-bottom:10px;
+	border-bottom:1px solid #8fc31f;
+	padding-bottom:10px;
+}
+/*——案例详情结束——*/
